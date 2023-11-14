@@ -71,12 +71,14 @@ p {
   border-radius: 0.3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  transition: opacity 0.25 ease background-color 0.25 ease;
 }
 .contents-container button:hover {
   cursor: pointer;
+  background-color: hsl(158, 64%, 20%);
 }
 .contents-container button:active {
-  background-color: hsl(158, 64%, 20%);
+  opacity: 0.8;
 }
 
 @media (max-width: 500px) {
